@@ -11,6 +11,7 @@
 		063C83192BA0A2060091A400 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 063C83182BA0A2060091A400 /* ContentView.swift */; };
 		063C831B2BA0A2070091A400 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 063C831A2BA0A2070091A400 /* Assets.xcassets */; };
 		063C831E2BA0A2070091A400 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 063C831D2BA0A2070091A400 /* Preview Assets.xcassets */; };
+		063C83252BA0A27A0091A400 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 063C83242BA0A27A0091A400 /* LocationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		063C83182BA0A2060091A400 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		063C831A2BA0A2070091A400 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		063C831D2BA0A2070091A400 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		063C83242BA0A27A0091A400 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				063C83162BA0A2060091A400 /* _Za_HunterApp.swift */,
 				063C83182BA0A2060091A400 /* ContentView.swift */,
+				063C83242BA0A27A0091A400 /* LocationManager.swift */,
 				063C831A2BA0A2070091A400 /* Assets.xcassets */,
 				063C831C2BA0A2070091A400 /* Preview Content */,
 			);
@@ -139,6 +142,7 @@
 			files = (
 				063C83192BA0A2060091A400 /* ContentView.swift in Sources */,
 				063C83172BA0A2060091A400 /* _Za_HunterApp.swift in Sources */,
+				063C83252BA0A27A0091A400 /* LocationManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +274,7 @@
 				DEVELOPMENT_TEAM = G845D45827;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app requires the use of Location Services";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +304,7 @@
 				DEVELOPMENT_TEAM = G845D45827;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app requires the use of Location Services";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
